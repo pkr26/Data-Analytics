@@ -1,4 +1,4 @@
-setwd('C:/Users/DILIP/Downloads')
+
 library(tidyverse)
 library(ggplot2)
 library(e1071)
@@ -244,8 +244,8 @@ ppcomp  (list(fit8_ln), legendtext = plot.legend, xlab = 'housing_df$median_hous
 ## Hypothesis Testing
 #one sample z-test is used when the population is normally distributed, and the population is known
 #defining Hypothesis
-#Null Hypothesis(H0): µ = µ0
-#Alternate Hypothesis(Ha): µ!= µ0
+#Null Hypothesis(H0): Âµ = Âµ0
+#Alternate Hypothesis(Ha): Âµ!= Âµ0
 # iam selecting my columns as house median_age which is normally distributed
 # step 1: creating a sample
 #step 2: Considering the significance value is alpha=0.01
